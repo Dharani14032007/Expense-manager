@@ -1,95 +1,52 @@
-# 💰 Cash & GPay Expense Manager
+# Cash & GPay Expense Manager
 
-A simple web-based expense management application for tracking **Cash and GPay transactions** in one place.
+A simple web application for tracking personal income and expenses across Cash and GPay.
 
-The application allows users to record income and expenses, organize transactions by category, generate reports, and securely access their data through their account.
+## Live Website
 
-## 🌐 Live Application
+[Open Expense Manager](https://dharani14032007.github.io/Expense-manager/)
 
-**[Open Cash & GPay Expense Manager](https://dharani14032007.github.io/Expense-manager/)**
+## Features
 
----
+- Track income and expenses
+- Separate Cash and GPay transactions
+- Add date, time, amount, category and purpose
+- View transaction history
+- Generate weekly, monthly, yearly and custom reports
+- Generate PDF reports
+- User sign-up and sign-in
+- Save transactions to the user's account
+- Access saved transactions after signing in again
 
-## ✨ Features
-
-### 💵 Cash & GPay Tracking
-- Track Cash and GPay transactions separately.
-- View Cash balance and GPay balance.
-- Track income and expenses independently.
-
-### 📝 Transaction Management
-Each transaction can include:
-
-- Transaction type — Income / Expense
-- Payment mode — Cash / GPay
-- Date
-- Time
-- Category
-- Purpose / Description
-- Amount
-
-### 📊 Reports
-Generate reports based on:
-
-- Weekly transactions
-- Monthly transactions
-- Yearly transactions
-- Custom date ranges
-
-Reports provide separate Cash and GPay summaries along with the overall balance.
-
-### 🧾 PDF Reports
-
-Generate receipt-style PDF reports containing:
-
-- Transaction details
-- Income summary
-- Expense summary
-- Cash summary
-- GPay summary
-- Net balance
-
-### 👤 User Accounts
-
-Users can:
-
-- Create an account
-- Sign in
-- Sign out
-- Access their own transactions
-- Continue using their data across sessions
-
-### 🔐 Data Protection
-
-Transactions are associated with individual user accounts using Supabase authentication and row-level security policies.
-
-Each user can access only their own transaction records.
-
----
-
-## 🛠️ Technologies Used
+## Technologies
 
 - HTML
 - CSS
 - JavaScript
-- Supabase Authentication
-- Supabase PostgreSQL
-- Supabase Row Level Security
+- Supabase
 - GitHub Pages
 
----
+## How to Use
 
-## 🚀 How to Use
-
-1. Open the web application.
-2. Enter your transaction details.
-3. Select **Income** or **Expense**.
-4. Select **Cash** or **GPay**.
-5. Enter the amount, category, date, time, and purpose.
-6. Add the transaction.
-7. Create an account or sign in when prompted.
-8. Use the Reports section to analyze your transactions.
+1. Open the website.
+2. Enter the transaction details.
+3. Select Income or Expense.
+4. Select Cash or GPay.
+5. Add the transaction.
+6. Create an account or sign in when prompted.
+7. Use the Reports section to view your spending and income.
 
 Returning users can sign in to access their previously saved transactions.
 
----
+## Security
+
+User authentication and transaction data are handled using Supabase. 
+Row Level Security is used to restrict transactions to the corresponding user account.
+
+## Project Status
+
+Active development.
+
+## Author
+
+Dharani
